@@ -1,0 +1,22 @@
+git init
+git add arquivo1.txt arquivo2.txt arquivo3.txt
+git commit -m "Commit inicial com 3 arquivos"
+git diff
+git add arquivo1.txt arquivo2.txt
+git commit -m "Alterações em arquivo1 e arquivo2"
+git log --oneline
+git log --stat
+git show 7a1954e
+git revert HEAD
+git stash push -m "Alteração temporária no arquivo3"
+git checkout -b outro-contexto
+git checkout master
+git stash pop
+git reflog
+git tag -a v1.0 -m "Versão inicial estável" 17459e9
+git remote add origin https://github.com/BittencourtSt/curso-git-embarcatech-ifrn.git
+git push origin --tags
+git push -u origin master
+git push -u origin outro-contexto
+git add comandos.txt
+git commit -m "Adicionando lista de comandos utilizados"
